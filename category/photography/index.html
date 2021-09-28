@@ -2150,14 +2150,6 @@ Click the help icon above to learn more.
 					</div>
 					
 					
-													<div class="input-field captcha-container loading">
-								<div class="form-captcha">
-									<img src="" alt="Captcha!" class="captcha">
-									<a href="#refresh-captcha" class="auth-refresh-captcha refresh-captcha"></a>
-								</div>
-								<input type="text" class="required bb-captcha-field" name="captcha-code" placeholder="Enter captcha">
-							</div>
-											
 					<div class="input-field">
 						<button class="bb-btn" type="submit">log in</button>
 					</div>
@@ -2166,6 +2158,12 @@ Click the help icon above to learn more.
 					</div>
 				</form>
 							</div>
+							<div class="content-footer">
+					<div class="bottom">
+						<div class="text">Don't have an account?</div>
+												<a class="bb-btn bb-btn-default js-authentication" href="#registration">sign up</a>
+					</div>
+				</div>
 					</div>
 	</div>
 </div>
@@ -2201,6 +2199,73 @@ Click the help icon above to learn more.
 </div>
 
 
+
+
+<div id="registration" class="light-modal authentication">
+	<a href="#" class="modal-close"><i class="bb-icon bb-ui-icon-close"></i></a>
+	<div class="modal-body wrapper">
+		<div class="content-wrapper">
+			<header class="content-header">
+									<h3 class="title">sign up</h3>
+				
+							</header>
+			<div class="content-body">
+
+									
+
+
+<style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style>
+
+<div class="wp-social-login-widget">
+
+	<div class="wp-social-login-connect-with">Connect with:</div>
+
+	<div class="wp-social-login-provider-list">
+<a rel="nofollow" href="https://hasyakattaofficialnews.github.io/wp-login.php" data-provider="Facebook" class="button _facebook wp-social-login-provider wp-social-login-provider-facebook">
+                    <i class="bb-icon bb-ui-icon-facebook"></i> Facebook
+                </a><a rel="nofollow" href="https://hasyakattaofficialnews.github.io/wp-login.php" data-provider="Google" class="button _google wp-social-login-provider wp-social-login-provider-google">
+                    <i class="bb-icon bb-ui-icon-google-plus"></i> Google
+                </a><a rel="nofollow" href="https://hasyakattaofficialnews.github.io/wp-login.php" data-provider="Twitter" class="button _twitter wp-social-login-provider wp-social-login-provider-twitter">
+                    <i class="bb-icon bb-ui-icon-twitter"></i> Twitter
+                </a>
+	</div>
+
+	<div class="wp-social-login-widget-clearing"></div>
+
+</div>
+
+
+
+				
+				<p class="status-msg bb-txt-msg"></p>
+
+				<form id="boombox-register" class="ajax-auth" action="register" method="post">
+					<input type="hidden" id="signonsecurity" name="signonsecurity" value="d60974bdff"><input type="hidden" name="_wp_http_referer" value="/hasyakattaofficialnews/category/photography/">					<div class="input-field">
+						<input type="email" name="signonemail" class="required" placeholder="Your e-mail address" value="">
+					</div>
+					<div class="input-field">
+						<input type="text" name="signonusername" class="required" placeholder="Your username" value="">
+					</div>
+					<div class="input-field">
+						<input type="password" name="signonpassword" class="required" placeholder="Your password" value="" autocomplete="new-password">
+					</div>
+					<div id="bb-register-pass-strength-result"></div>
+					
+					<div class="input-field">
+						<button class="bb-btn" type="submit">sign up</button>
+					</div>
+				</form>
+							</div>
+			<div class="content-footer">
+				<div class="bottom">
+					<div class="text">Back to </div>
+					<a class="bb-btn bb-btn-default js-authentication" href="#sign-in">log in</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div id="glt-translate-trigger"><span class="notranslate">Translate »</span></div><div id="glt-toolbar"></div><div id="flags" style="display:none" class="size18"><ul id="sortable" class="ui-sortable"><li id="English"><a href="#" title="English" class="nturl notranslate en flag English"></a></li></ul></div><div id="glt-footer"><div id="google_language_translator" class="default-language-en"></div></div><script>function GoogleLanguageTranslatorInit() { new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages:'en', autoDisplay: false}, 'google_language_translator');}</script><div class="zombify-create-popup">
             <div class="zombify-popup_body">
                 <a class="zf-popup_close" href="#"><i class="zf-icon zf-icon-delete"></i></a>
@@ -2352,11 +2417,37 @@ var params = {"ajax_url":"https:\/\/hasyakattaofficialnews.github.io\/wp-admin\/
 <script type="text/javascript" src="https://hasyakattaofficialnews.github.io/vews/boombox/includes/authentication/assets/js/jquery.validate.min.js" id="boombox-validate-scripts-js"></script>
 <script type="text/javascript" id="boombox-default-auth-scripts-js-extra">
 /* <![CDATA[ */
-var ajax_auth_object = {"ajaxurl":"https:\/\/hasyakattaofficialnews.github.io\/wp-admin\/admin-ajax.php","login_redirect_url":"https:\/\/hasyakattaofficialnews.github.io\/category\/photography","register_redirect_url":"https:\/\/PLACEHOLDER.wpsho","reset_password_redirect_url":"https:\/\/PLACEHOLDER.wpsho","nsfw_redirect_url":"https:\/\/hasyakattaofficialnews.github.io\/category\/photography","loading_message":"Sending user info, please wait...","invalid_message":"Please fix all invalid fields.","captcha_file_url":"https:\/\/hasyakattaofficialnews.github.io\/vews\/boombox\/includes\/authentication\/default\/captcha\/captcha-security-image.php","captcha_type":"image","enable_login_captcha":"1","enable_registration_captcha":"1","site_primary_color":"#fdc316","trigger_action":"","messages":{"password_strength":"Password strength","password_mismatch":"Passwords don't match"}};
+var ajax_auth_object = {"ajaxurl":"https:\/\/hasyakattaofficialnews.github.io\/wp-admin\/admin-ajax.php","login_redirect_url":"https:\/\/hasyakattaofficialnews.github.io\/category\/photography","register_redirect_url":"https:\/\/PLACEHOLDER.wpsho","reset_password_redirect_url":"https:\/\/PLACEHOLDER.wpsho","nsfw_redirect_url":"https:\/\/hasyakattaofficialnews.github.io\/category\/photography","loading_message":"Sending user info, please wait...","invalid_message":"Please fix all invalid fields.","captcha_file_url":"https:\/\/hasyakattaofficialnews.github.io\/vews\/boombox\/includes\/authentication\/default\/captcha\/captcha-security-image.php","captcha_type":"image","enable_login_captcha":"","enable_registration_captcha":"","site_primary_color":"#fdc316","trigger_action":"","messages":{"password_strength":"Password strength","password_mismatch":"Passwords don't match"}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://hasyakattaofficialnews.github.io/vews/boombox/includes/authentication/default/js/default-auth-scripts.min.js" id="boombox-default-auth-scripts-js"></script>
 <script type="text/javascript" src="https://hasyakattaofficialnews.github.io/modules/quick-adsense-reloaded/assets/js/ads.js" id="quads-admin-ads-js"></script>
+<script type="text/javascript" id="zxcvbn-async-js-extra">
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/hasyakattaofficialnews.github.io\/lib\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hasyakattaofficialnews.github.io/lib/js/zxcvbn-async.min.js" id="zxcvbn-async-js"></script>
+<script type="text/javascript" src="https://hasyakattaofficialnews.github.io/lib/js/dist/vendor/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://hasyakattaofficialnews.github.io/lib/js/dist/vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://hasyakattaofficialnews.github.io/lib/js/dist/hooks.min.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://hasyakattaofficialnews.github.io/lib/js/dist/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="password-strength-meter-js-extra">
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"Password strength unknown","short":"Very weak","bad":"Weak","good":"Medium","strong":"Strong","mismatch":"Mismatch"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="password-strength-meter-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type="text/javascript" src="https://hasyakattaofficialnews.github.io/wp-admin/js/password-strength-meter.min.js" id="password-strength-meter-js"></script>
 
 				
 				<div id="fb-root"></div>
